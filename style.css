@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+  background: #121212 url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  margin: 0;
+}
+
+.container {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #ff0033;
+  text-align: center;
+}
+
+.logo {
+  width: 400px;
+  margin-bottom: 1px;
+}
+
+form input {
+  display: block;
+  margin: 15px auto;
+  padding: 10px;
+  width: 250px;
+  background: #2c2c2c;
+  color: white;
+  border: 2px solid #ff0033;
+  border-radius: 6px;
+}
+
+form button {
+  padding: 10px 25px;
+  background: #ff0033;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #ff3344;
+}
